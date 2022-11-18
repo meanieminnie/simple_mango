@@ -1,0 +1,31 @@
+/* narrow, centered column */
+/* images contained within column */
+html {
+    max-width: 70ch;
+    /* larger spacing on larger screens, very small spacing on tiny screens */
+    margin-inline: auto;
+    /* fluid sizing: https://frontaid.io/blog/fluid-typography-2d-css-locks-clamp/ */
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    color: rgb(243, 80, 15);
+}
+
+h2{
+    color: rgb(255, 115, 0);
+}
+
+h3{
+    color: rgb(242, 141, 53);
+}
+h4{
+    color: red;
+}
+
+img{
+    width: 120%;
+}
